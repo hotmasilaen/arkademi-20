@@ -1,0 +1,121 @@
+ /* selector dari tag pembuka html */
+ h1 {
+     color: #006cbb;
+ }
+
+ /* selector dari class */
+ .box {
+     border: 1px solid black;
+ }
+
+ .font-s {
+     font-size: 12px;
+ }
+
+ /* selector dari id element */
+ #btnDaftar {
+     background-color: #006cbb;
+     color: white;
+     padding: 10px 15px;
+     border: none;
+     border-radius: 5px;
+     font-weight: bolder;
+     letter-spacing: 1px;
+ }
+
+ .blue-box {
+     width: 100%;
+     height: 300px;
+     background-color: #006cbb;
+ }
+
+ .container {
+     padding-left: 16rem;
+     padding-right: 16rem;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     background-image: url('https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-pendidikan.dbe4b38a.webp&w=1920&q=75');
+     background-repeat: no-repeat;
+     background-position: center;
+     border-width: 2px;
+     border-style: solid;
+     border-color: black;
+     border-radius: 10px;
+     margin-bottom: 5rem;
+ }
+
+ .container2 {
+     padding-left: 16rem;
+     padding-right: 16rem;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     background-image: url('https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-pendidikan.dbe4b38a.webp&w=1920&q=75');
+     background-repeat: no-repeat;
+     background-position: center;
+     border-width: 2px;
+     border-style: solid;
+     border-color: black;
+     border-radius: 10px;
+ }
+
+ .sub-container {
+     display: flex;
+     gap: 5rem;
+     justify-content: center;
+ }
+
+ .left-side {
+     text-align: right;
+ }
+
+ .img-blur {
+     filter: blur(2px);
+ }
+
+ .bg-leaf {
+     padding: 5rem 10rem;
+     background-image: url('https://img.freepik.com/free-photo/autumn-season-leafs-plant-scene-generative-ai_188544-7971.jpg?w=1380&t=st=1694786034~exp=1694786634~hmac=004f9e00e3596b4e6ff719524a1377ce215b5f228836676a87f05081d084ac71');
+ }
+
+ .card-blur {
+     background-color: white;
+     filter: blur(3px);
+     min-height: 100px;
+     width: 100px;
+     padding: 3rem;
+     /* transition: min-height 2s, width 2s, background-color 2s;
+            transition-delay: 2s; */
+     /* animation: animationBlur 2s ease 3 alternate forwards running; */
+     animation-duration: 2s;
+     animation-timing-function: linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
+     animation-delay: 1s;
+     animation-iteration-count: 3;
+     animation-direction: alternate;
+     animation-fill-mode: forwards;
+     animation-play-state: running;
+     animation-name: animationBlur;
+     animation-timeline: auto;
+     animation-range-start: normal;
+     animation-range-end: normal;
+ }
+
+ /* .card-blur:hover{
+            background-color: #b0a6a68f;
+            min-height: 300px;
+            width: 300px;
+        } */
+
+ @keyframes animationBlur {
+     from {
+         min-height: 100px;
+         width: 100px;
+         background-color: white;
+     }
+
+     to {
+         background-color: #b0a6a68f;
+         min-height: 300px;
+         width: 300px;
+     }
+
+ }

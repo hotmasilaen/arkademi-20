@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 5rem 15rem;
+        }
+
+        span {
+            color: #006cbb;
+        }
+
+        .sub-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .sub-container>img {
+            margin-right: 20px;
+        }
+
+        button {
+            background: linear-gradient(261.28deg, #ff9417 18.17%, #ff8017 84.69%);
+            border: none;
+            border-radius: 5px;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 5rem;
+        }
+
+        .card {
+            display: flex;
+            gap: 3rem;
+            margin: 4rem 15rem;
+        }
+
+        .sub-card {
+            border: 1px solid gray;
+            padding: 3rem;
+            border-radius: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 2rem;
+            }
+
+            .mentor-img {
+                display: none;
+            }
+
+            .card {
+                margin: 2rem;
+                flex-direction: column;
+            }
+        }
+
+        .card-populer {
+            border: 1px solid black;
+            padding: 3rem;
+        }
+
+        .container-populer {
+            display: flex;
+            align-items: center;
+            margin: 0 15rem;
+            gap: 3rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>
+                Kursus Online dari
+                Lembaga Pelatihan <u>Resmi</u> untuk
+                <span>Tingkatkan Karier Profesionalmu</span>
+            </h1>
+            <p>
+                <b>
+                    Lebih dari 500 kursus online dengan sertifikasi resmi untuk para pekerja dan profesional Indonesia
+                    dalam meningkatkan karier dan keahlian. Disusun dan diajarkan oleh instruktur ahli berpengalaman
+                    dengan pengakuan industri dan lisensi profesi.
+                </b>
+            </p>
+            <div class="sub-container">
+                <img src="https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-pendidikan.dbe4b38a.webp&w=1920&q=75"
+                    width="45px" />
+                <p>
+                    Arkademi adalah <b>Kursus dan Pelatihan resmi berlisensi</b> dari Kementerian Pendidikan,
+                    Kebudayaan, Riset, dan Teknologi RI
+                </p>
+            </div>
+            <button>Lihat yang Sesuai untuk Kariermu</button>
+        </div>
+        <div>
+            <img class="mentor-img"
+                src="https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-new-hero-comp.f8b58ff9.webp&w=1920&q=75" />
+        </div>
+    </div>
+    <div class="card">
+        <div class="sub-card">
+            <div>
+                <img
+                    src="https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-izin.f95dfcc9.webp&w=256&q=75" />
+            </div>
+            <h3>Berizin resmi dari Pemerintah</h3>
+        </div>
+        <div class="sub-card">
+            <div>
+                <img
+                    src="https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-izin.f95dfcc9.webp&w=256&q=75" />
+            </div>
+            <h3>Berizin resmi dari Pemerintah</h3>
+        </div>
+        <div class="sub-card">
+            <div>
+                <img
+                    src="https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-izin.f95dfcc9.webp&w=256&q=75" />
+            </div>
+            <h3>Berizin resmi dari Pemerintah</h3>
+        </div>
+        <div class="sub-card">
+            <div>
+                <img
+                    src="https://arkademi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon-izin.f95dfcc9.webp&w=256&q=75" />
+            </div>
+            <h3>Berizin resmi dari Pemerintah</h3>
+        </div>
+    </div>
+    <h1 class="text-center">Kategori Terpopuler</h1>
+    <div class="container-populer">
+        <div class="card-populer">
+            <img
+                src="https://arkademi.com/_next/image?url=https%3A%2F%2Fd19izmiuoyzsz.cloudfront.net%2Fimages%2FP22lk6BIZ7KMQkNaNdN4Njd4JWwwzROwzoaeNQDV.png&w=48&q=75" />
+            <h3>Sertifikasi</h3>
+            <p>Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.</p>
+        </div>
+        <div class="card-populer">
+            <img
+                src="https://arkademi.com/_next/image?url=https%3A%2F%2Fd19izmiuoyzsz.cloudfront.net%2Fimages%2FP22lk6BIZ7KMQkNaNdN4Njd4JWwwzROwzoaeNQDV.png&w=48&q=75" />
+            <h3>Sertifikasi</h3>
+            <p>Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.</p>
+        </div>
+        <div class="card-populer">
+            <img
+                src="https://arkademi.com/_next/image?url=https%3A%2F%2Fd19izmiuoyzsz.cloudfront.net%2Fimages%2FP22lk6BIZ7KMQkNaNdN4Njd4JWwwzROwzoaeNQDV.png&w=48&q=75" />
+            <h3>Sertifikasi</h3>
+            <p>Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.</p>
+        </div>
+        <div class="card-populer">
+            <img
+                src="https://arkademi.com/_next/image?url=https%3A%2F%2Fd19izmiuoyzsz.cloudfront.net%2Fimages%2FP22lk6BIZ7KMQkNaNdN4Njd4JWwwzROwzoaeNQDV.png&w=48&q=75" />
+            <h3>Sertifikasi</h3>
+            <p>Persiapan sertifikasi ahli mulai dari K3, ISO, Brevet Pajak, hingga HR untuk profesional.</p>
+        </div>
+    </div>
+</body>
+
+</html>

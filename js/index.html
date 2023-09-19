@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="root"></p>
+    <script>
+        // const nama = "Farhan";
+        // const naMa = "Farhan";
+        // const namA = "Farhan";
+
+        const namaSiswa = "Farhan";
+        let umur = 23;
+        umur = 24;
+
+        console.log('Nama Siswa: ', namaSiswa);
+        document.getElementById('root').innerHTML = namaSiswa;
+
+        function sum(x, y, z) {
+            let s = x + y - z;
+            return s;
+        }
+
+        const nilai1 = 70;
+        const nilai2 = 90;
+        // const hasil = nilai1 + nilai2;
+        console.log(typeof nilai2);
+        console.log('Hasil: ', sum(nilai1, nilai2));
+
+        const hargaBarang = 2959000;
+        const diskon = hargaBarang * 0.37;
+        const hargaBayar = hargaBarang - diskon
+        console.log('Harga yang harus dibayar: ', hargaBayar);
+        console.log('Potongan harga: ', diskon);
+
+        const password = 'password123';
+        const incomingPassword = 'password123';
+        console.log('Apakah password sama? ', password == incomingPassword);
+
+        const value1 = 25;
+        const value2 = 25;
+        console.log('Apakah value identical? ', value1 === value2);
+
+        const userName = 'hotma1';
+        const incomingUserName = 'hotma20';
+        console.log('Apakah userName dan incomingUserName tidak sama? ', userName != incomingUserName);
+
+        const value3 = 25;
+        const value4 = 26;
+        console.log('Apakah value3 dan value4 tidak identical? ', value3 !== value4);
+
+
+        const noHp = '082200000007';
+        console.log(noHp.slice(2, 12));
+        console.log(noHp.replace('0', '+62'));
+
+
+        const day = 4;
+        switch (day) {
+            case 1:
+                console.log('Hari ini adalah hari Senin');
+                break;
+            case 2:
+                console.log('Hari ini adalah hari Selasa');
+                break;
+            case 3:
+                console.log('Hari ini adalah hari Rabu');
+                break;
+            case 4:
+                console.log('Hari ini adalah hari Kamis');
+                break;
+            default:
+                console.log('Hari ini adalah Weekend');
+                break;
+        }
+
+        for (var i = 1; i <= 5; i++) {
+            console.log('Number: ', i);
+        }
+
+        const fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
+        for (var i in fruits) {
+            console.log('Buah: ', fruits[i]);
+        }
+
+        console.log(sum(2000, 500));
+
+    </script>
+</body>
+
+</html>

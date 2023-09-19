@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validateForm() {
+            let x = document.forms['myForm'][' fname '].value
+            if (x == '') {
+                alert('Nama tidak boleh kosong...')
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- ini konten aplikasi saya -->
+    <a href="https://arkademi.com/promo-event">Promo dan Event</a>
+    <h1>Kursus Online dari Lembaga Pelatihan Resmi untuk Tingkatkan Karier Profesionalmu</h1>
+    <h2>Kursus Online dari Lembaga Pelatihan Resmi untuk Tingkatkan Karier Profesionalmu</h2>
+    <img src="https://img.freepik.com/free-vector/tropical-leaves-background-zoom_23-2148580778.jpg"
+        alt="background-img" />
+    <article>Kursus online yang fleksibel, terjangkau, dan relevan untuk para pekerja profesional di Indonesia. Bermitra
+        dengan lebih dari 100 perusahaan terkemuka dalam membuat kurikulum standar pendidikan profesional yang diajarkan
+        langsung oleh instruktur ahli di bidangnya.</article>
+    <mark>Kursus online yang fleksibel, terjangkau, dan relevan untuk para pekerja profesional di Indonesia. Bermitra
+        dengan lebih dari 100 perusahaan terkemuka dalam membuat kurikulum standar pendidikan profesional yang diajarkan
+        langsung oleh instruktur ahli di bidangnya.</mark>
+
+    <br />
+    <br />
+    <br />
+
+    <form name="myForm" onsubmit="return validateForm()">
+        Name: <input type="text" name=" fname " />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
